@@ -1,0 +1,1 @@
+import{s as n}from"./index-CDoKDnrf.js";const g={getBorrowRanking(r="weekly",e=10){return n.get("/rankings/borrow",{params:{type:r,limit:e}})},getReadingRanking(r="weekly",e=10){return n.get("/rankings/reading",{params:{type:r,limit:e}})}};export{g as r};

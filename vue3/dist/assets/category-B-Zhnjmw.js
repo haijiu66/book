@@ -1,0 +1,1 @@
+import{s as t}from"./index-CDoKDnrf.js";const s={getAll(){return t.get("/categories")},getById(e){return t.get(`/categories/${e}`)},create(e){return t.post("/categories",e)},update(e,r){return t.put(`/categories/${e}`,r)},delete(e){return t.delete(`/categories/${e}`)}};export{s as c};

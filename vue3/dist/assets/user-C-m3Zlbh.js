@@ -1,0 +1,1 @@
+import{s as r}from"./index-CDoKDnrf.js";const a={getAllUsers(){return r.get("/admin/user-management")},getUserById(e){return r.get(`/admin/user-management/${e}`)},createUser(e){return r.post("/admin/user-management",e)},updateUser(e,t){return r.put(`/admin/user-management/${e}`,t)},deleteUser(e){return r.delete(`/admin/user-management/${e}`)}};export{a as u};
